@@ -1,0 +1,35 @@
+{
+  "name": "woodleys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start ./bin/www.backend.woodleys-app",
+    "local": "nodemon ./bin/www.backend.woodleys-app"
+  },
+  "keywords": [],
+  "author": "Hafiz Muhammad Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "joi": "^17.7.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^8.5.2",
+    "mongoose-slug-plugin": "^2.1.0",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
